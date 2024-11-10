@@ -31,5 +31,6 @@ module.exports = {
     'import/no-unresolved': 'error',
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
+    'prettier/prettier': ['error', { printWidth: 120 }],
   },
 };

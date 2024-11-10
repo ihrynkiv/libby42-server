@@ -18,11 +18,7 @@
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
     "paths": {
-      "@prisma/*": ["prisma/*"],
       "@src/*": ["src/*"],
-      "@services/*": ["src/services/*"],
-      "@controllers/*": ["src/controllers/*"],
-      "@modules/*": ["src/modules/*"],
     }
   }
 }
