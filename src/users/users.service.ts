@@ -5,7 +5,6 @@ import { DatabaseService } from '@src/database/database.service';
 @Injectable()
 export class UsersService {
   constructor(private databaseService: DatabaseService) {}
-
   async create(user: Prisma.UserCreateInput) {
     return this.databaseService.user.create({
       data: user,
